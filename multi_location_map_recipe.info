@@ -1,0 +1,10 @@
+type = module
+name = Multi Location Map Recipe
+description = A recipe to build a multi location map on your site.
+package = Recipes
+backdrop = 1.x
+
+dependencies[] = system (>=1.20.0)
+dependencies[] = geofield
+dependencies[] = geocoder
+dependencies[] = addressfield

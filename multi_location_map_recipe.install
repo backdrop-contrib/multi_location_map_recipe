@@ -1,0 +1,6 @@
+<?php
+  function multi_location_map_recipe_install() {
+    backdrop_set_message('You will need to add map API keys to the Geocoder settings for this recipe to work. For more information: https://simplo.site/posts/placing-multiple-locations-map-backdrop-cms', 'info');
+  }
+
+
