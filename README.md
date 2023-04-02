@@ -1,17 +1,15 @@
 Multi Location Map Recipe
 ======================
 
-THIS RECIPE IS NOT YET WORKING.
-
-
 Requirements
 ------------
 
 Requires [BackdropCMS 1.20](https://github.com/backdrop/backdrop/releases/tag/1.20.0) or greater.
 
-This recipes is currently configured to use the Bootstrap Accordion module 
-to display the FAQ. You will need to enable and configure the Bootstrap 
-Accordion module to benefit from that formatting. 
+REQUIRED: The GeoCoder modules requires API keys to properly geocode
+and display points on a map (admin/config/content/geocoder). 
+
+See: https://simplo.site/posts/placing-multiple-locations-map-backdrop-cms 
 
 Installation
 ------------
@@ -33,12 +31,15 @@ It is not currently possible to uninstall or upgrade this recipe.
 If you no longer wish to keep this functionality, you will need 
 to remove the items added by the recipe manually.
 
+Once installed, you can make any necessary changes yourself to
+the included content types, fields or views.
+
 
 Issues
 ------
 
 Bugs and Feature requests should be reported in the Issue Queue:
-https://github.com/backdrop-contrib/faq/issues.
+https://github.com/backdrop-contrib/multi_location_map_recipe/issues.
 
 Feedback
 --------
@@ -46,7 +47,7 @@ Feedback
 We are experimenting with config recipes and welcome your feedback. Please,
 let us know how this config recipe worked for you and how you think we 
 could improve it for other users in the future. 
-https://github.com/backdrop-contrib/faq/issues/1
+https://github.com/backdrop-contrib/multi_location_map_recipe/issues/1
 
 Current Maintainers
 -------------------
