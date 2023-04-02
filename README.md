@@ -15,9 +15,6 @@ Requirements
 
 Requires [BackdropCMS 1.20](https://github.com/backdrop/backdrop/releases/tag/1.20.0) or greater.
 
-REQUIRED: The GeoCoder modules requires API keys to properly geocode
-and display points on a map (admin/config/content/geocoder). 
-
 See: https://simplo.site/posts/placing-multiple-locations-map-backdrop-cms 
 
 This recipe module requires the following modules:
@@ -25,6 +22,9 @@ This recipe module requires the following modules:
 * Geofield
 * Geocoder
 * Addressfield
+
+REQUIRED: The GeoCoder modules requires API keys to properly geocode
+and display points on a map (admin/config/content/geocoder). 
 
 Installation
 ------------
