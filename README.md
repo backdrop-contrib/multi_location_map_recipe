@@ -1,6 +1,15 @@
 Multi Location Map Recipe
 ======================
 
+This recipe creates a content type and view that can be used to place 
+multiple points (location nodes) on a single map.
+
+This recipe creates:
+
+* A Location content type
+* A Locations view that will display a map with all published locations on it
+* A Map menu item in the main menu
+
 Requirements
 ------------
 
@@ -10,6 +19,12 @@ REQUIRED: The GeoCoder modules requires API keys to properly geocode
 and display points on a map (admin/config/content/geocoder). 
 
 See: https://simplo.site/posts/placing-multiple-locations-map-backdrop-cms 
+
+This recipe module requires the following modules:
+
+* Geofield
+* Geocoder
+* Addressfield
 
 Installation
 ------------
