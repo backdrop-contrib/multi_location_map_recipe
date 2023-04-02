@@ -1,6 +1,6 @@
 type = module
 name = Multi Location Map Recipe
-description = A recipe to build a multi location map on your site.
+description = A recipe to build a multi location map on your site. Please, provide feedback here: https://github.com/backdrop-contrib/multi_location_map_recipe/issues/1
 package = Recipes
 backdrop = 1.x
 
